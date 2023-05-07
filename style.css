@@ -12,7 +12,7 @@ body {
 
 
 .content {
-    background-color: gainsboro;
+    background-color: #F9FAFB;
     display: flex;
 }
 
@@ -57,11 +57,11 @@ body {
     flex-direction: column;
     padding-left: 3%;
     width: calc(95% - 3%);
-    background: rgb(234, 234, 234);
+    background: #F9FAFB;
 }
 
 .info-hero {
-    padding: 15% 0 5% 0;
+    padding: 11% 0 5% 0;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@ body {
     padding-top: 2.5%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    
+
 
 
 }
@@ -110,9 +110,10 @@ form {
 
 label {
     text-transform: uppercase;
-    color: rgb(87, 87, 87);;
+    color: rgb(87, 87, 87);
+    ;
     font-weight: bold;
-    
+
 }
 
 input,
@@ -130,5 +131,47 @@ textarea {
 
 
 .submit--hero {
-    border: 1px rgb(39, 54, 139) solid;
+    padding-top: 2rem;
+
+}
+
+.submit--hero button {
+    color: white;
+    background-color: #596D48;
+    padding: 1em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+
+}
+
+.submit--hero button:hover {
+    background-color: white;
+    color: #596D48;
+
+}
+
+.submit--hero button:active {
+    transform: translateY(1px);
+}
+
+
+
+.submit--hero p {
+    padding-top: 2rem;
+    font-weight: 600;
+}
+
+.submit--hero a:hover{
+    color: #596D48;
+}
+
+.submit--hero a{
+    color: #596D48;
+    text-decoration: none;
 }
